@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kumar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Katibeh|Kumar+One&display=swap');
+
+
+body{
+    background-image: repeating-linear-gradient(white, #e7dfdd) ;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 350px 250px 250px;
+  grid-template-rows: 500px 250px 250px 100px;
+  grid-template-areas: "encabezado encabezado encabezado encabezado" "menu area-de\ trabajo area-de\ trabajo nada" "menu area-de\ trabajo area-de\ trabajo nada" "final-de\ pagina final-de\ pagina final-de\ pagina final-de\ pagina";
+}
+
+.encabezado { 
+    background-image: repeating-linear-gradient( #0e0b16 , black, #0f1626);
+    color: white;
+    font-size: 30px;
+    height: 300px;
+    width: 1260px;
+    padding: 25px;
+    margin: 10px;
+
+
+}
+.finpag { 
+  font-size: 8px;
+    height: 100px;
+    width: 1260px;
+    padding: 25px;
+    margin: 10px;
+  border: black solid 2px;
+  background-color: black;
+  color: #ffffff;
+  
+ }
+
+.area{
+  height: 300px;
+    width: 1260px;
+    position: relative;
+   
+}
+.menu { 
+  
+  height: 150px;
+  width: 0px;
+  padding: 10px;
+    
+}
+.myButton {
+	box-shadow: 7px 7px 13px 0px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+	border:4px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:11px 53px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#tran1{
+  transition: width 7s;
+  
+  position: static;
+  position: relative;
+  display:scroll;
+      
+
+  
+}
+#tran1:hover{
+  width: 150px;
+  filter: blur(1px);
+}
+
+
+.arti{ 
+  height: 1880px;
+  width: 1260px;
+  padding: 25px;
+  margin: 10px;
+  
+ }
+ .arti2{ 
+  height: 1600px;
+  width: 1260px;
+  padding: 25px;
+  margin: 10px;
+  
+ }
+
+ .arti3{ 
+  height: 1680px;
+  width: 1260px;
+  padding: 25px;
+  margin: 10px;
+  
+ }
+
+ .arti4{ 
+  height: 2090px;
+  width: 1260px;
+  padding: 25px;
+  margin: 10px;
+  
+ }
+
+ .arti5{ 
+  height: 470px;
+  width: 1260px;
+  padding: 25px;
+  margin: 10px;
+ 
+  
+ }
+ .trck{
+   
+    font-family: 'Kumar One', cursive;
+ }
+ 
+
+.nada { grid-area: nada; }
+.log{
+  position: static;
+  position: relative;
+  display:scroll;
+     
+}
+.shadow-drop-2-center {
+	animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+
+.img1D{
+  
+    
+    animation: shadow-drop-tr 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+    
+}
+.img1D:hover{
+  filter: grayscale(50%);
+  
+}
+
+@keyframes img1D{
+  0% {
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    
+  }
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 12px -12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+.Art{
+  color: #000000;
+  font-size: 50px;
+  font-family: 'Kumar One', cursive;
+}
+.Art2{
+  color: #000000;
+  font-size: 50px;
+  font-family: fantasy;
+}
+.img1D2{
+  
+    float: left;
+  animation: shadow-drop-tr 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  
+  
+}
+.img1D2:hover{
+filter: grayscale(50%);
+}
+.img1D3{
+  
+ float: right;
+animation: shadow-drop-tr 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+
+}
+.img1D3:hover{
+filter: grayscale(50%);
+}
+.img1D4{
+  
+  overflow: hidden;
+ animation: shadow-drop-tr 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ 
+ 
+ }
+ .img1D4:hover{
+   
+ filter: grayscale(50%);
+ }
+ .img1D4:hover .zoom{
+  transition: transform .2s;
+  transform: scale(1.5);
+ }
+
+ .imgK{
+   float: right;
+ }
